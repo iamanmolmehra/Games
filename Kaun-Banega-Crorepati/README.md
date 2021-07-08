@@ -3,7 +3,7 @@
 I have used most of the basic skills of python : strings, if-else, loop, and list.</p>
 
 <h2>Description</h2>
-I wanted my project to help the user in playing a delightful game where they'll ask questions as Amitabh Bachchan does in the television show KBC and then the participant wins a cash prize on every correct answer and along this process they can also use a few helplines.
+I wanted my project to help the user in playing a delightful game where they'll be asked questions as Amitabh Bachchan does in the television show KBC and then the participant wins a cash prize on every correct answer and along this process they can also use a few helplines.
 
 <h2>Dependencies</h2>
 Install python3 in your project  :
