@@ -1,4 +1,4 @@
-# Hangman_Game_Using_Python
+# Hangman-Game-Using-Python
 <p>I have created Hangman Game using Python and it's functions.
 I have used most of the basic skills of python : strings, if-else, loop, and list.</p>
 
