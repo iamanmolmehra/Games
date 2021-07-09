@@ -26,17 +26,17 @@ if pin_number==1234:
         z=int(input('\nEnter What You Want To Do ? '))
         if z==1: print(f"\n{am}")
         elif z==2:
-            amount=int(input("\nEnter A Amount: "))
+            amount=int(input("\nEnter an amount: "))
             print("\nTransaction Successfully")
             am-=amount
         elif z==3: 
-            print("\nEnter Your Deposit Amount : ") 
+            print("\nEnter Your deposit amount : ") 
             amount=int(input("\nEnter Your Amount : ")) 
             am+=amount
-        elif z==4: print("\nPrint Your Statement")
-        elif z==5: print("\nThanks For Coming") 
+        elif z==4: print("\nPrint your statement")
+        elif z==5: print("\nThanks for coming") 
         break
-        x=input('\nWant to Do Something More?')   
+        x=input('\nWant to do something more?')   
         if x=='y' or x=='Y': i+=1
         else: break      
-    else: print("\nWrong Pin, Please Insert Right PIN ")
+    else: print("\nWrong Pin, Please check and Insert correctly again ")
