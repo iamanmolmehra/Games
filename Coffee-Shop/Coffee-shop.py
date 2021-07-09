@@ -8,14 +8,14 @@ for i,z in zip(tea.values(),coffee.values()):
         if user == 1 or user==2:
             for k,x in zip(i.values(),z.values()):
                 print(f"\n{k[0]}\n{k[1]}\n{k[2]}") if us==1 else print(f"\n{x[0]}\n{x[1]}\n{x[2]}")
-                s=int(input("\nEnter your size :"))
-                if s==1:
+                s=int(input("\nEnter your size : s,m or l"))
+                if s=='s':
                     print("\nYou Have To Pay 20 rs") if us==1 else print("\nYou Have To Pay 40 rs")  
                     break    
-                elif s==2:
+                elif s=='m':
                     print("\nYou Have To Pay 30 rs") if us==d1 else print("\nYou Have To Pay 60 rs")
                     break
-                elif s==3:
+                elif s=='l':
                     print("\nYou Have To Pay 40 rs") if us==1 else print("\nYou Have To Pay 80 rs") 
                     break
                 else:
